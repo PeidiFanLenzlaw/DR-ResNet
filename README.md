@@ -111,7 +111,7 @@ with torch.no_grad():
 ## File Structure
 
 ```
-github_push/
+DR-ResNet/
 ├── model.py              # DR-ResNet model definition
 ├── train.py              # Training script
 ├── data/                 # Dataset directory
