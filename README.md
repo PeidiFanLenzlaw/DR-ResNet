@@ -34,9 +34,9 @@ The dataset contains physiological measurements for classifying different metabo
 
 Each CSV file contains the following columns:
 - **Time (s)**: Time stamp in seconds
-- **HB (mM)**: Hemoglobin concentration in millimolar
-- **Glu (mM)**: Glucose concentration in millimolar  
-- **pH**: Blood pH level
+- **HB (mM)**: β-hydroxybutyrate concentration
+- **Glu (mM)**: Glucose concentration
+- **pH**: pH level
 - **label**: Class label (0-3 representing different metabolic states)
 
 ### Data Files
@@ -49,9 +49,9 @@ The dataset is organized into 6 subjects with 6 conditions each:
 ### Input Features
 
 The model uses 3 physiological features as input:
-1. **HB (Hemoglobin)**: Oxygen carrying capacity indicator
-2. **Glu (Glucose)**: Blood sugar level
-3. **pH**: Acid-base balance indicator
+1. **HB (β-hydroxybutyrate)**
+2. **Glu (Glucose)**
+3. **pH**
 
 ## Requirements
 
@@ -120,20 +120,3 @@ DR-ResNet/
 │   └── ...
 └── README.md             # This file
 ```
-
-## Citation
-
-If you use this code or dataset in your research, please cite:
-
-```bibtex
-@article{drresnet2025,
-  title={3D Micro/Nano Manufacturing Enabled High-fidelity Wearable Bioelectronics},
-  author={},
-  journal={},
-  year={2025}
-}
-```
-
-## License
-
-This project is licensed under the MIT License.
