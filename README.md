@@ -18,12 +18,6 @@ DR-ResNet introduces a dynamic routing mechanism into residual connections, allo
    - 4 sequential dynamic routing blocks with group processing
    - Global average pooling and classification head
 
-3. **Key Features**:
-   - Parameter-efficient with ~10K parameters
-   - Dynamic routing enhances feature selection
-   - Residual connections alleviate gradient vanishing
-   - Suitable for resource-constrained environments
-
 ## Dataset
 
 ### Physiological Sensor Data for Metabolic State Classification
